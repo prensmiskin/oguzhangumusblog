@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>http://www.oguzhangumus.net/index.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/about.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/post.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/contact.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postsix.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postTwo.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postThree.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postFour.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postFive.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>http://www.oguzhangumus.net/postteen.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+</urlset>
