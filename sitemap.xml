@@ -60,4 +60,16 @@
   <changefreq>always</changefreq>
   <lastmod>2019-07-11</lastmod>
 </url>
+<url>
+  <loc>https://www.oguzhangumus.net/onetwo.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/oneone.html</loc>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+  <lastmod>2019-07-11</lastmod>
+</url>
 </urlset>
