@@ -2,12 +2,9 @@
 <html>
 <head>
 	<title>sd</title>
+	
 </head>
 <body>
-<?php 
-
-echo "aaa";
-
-?>
+<p>dddd</p>
 </body>
 </html>
