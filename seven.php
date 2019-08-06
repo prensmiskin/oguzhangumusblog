@@ -1,2 +1,6 @@
 <?php 
-print("Hello World");?>
+
+
+echo "aaa";
+
+?>
