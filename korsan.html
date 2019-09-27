@@ -409,6 +409,15 @@ Yazılım büyülü bir meslekmidir ? Herkes neden yazılımcı olamaz ?</h3>
             </li>
           </ul>
           <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
+           <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
         </div>
       </div>
     </div>
