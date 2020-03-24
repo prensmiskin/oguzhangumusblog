@@ -13,15 +13,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="title" content="Gerçek Yazılımcı">
-<meta name="description" content="Yazılım büyülü bir meslek midir ? Herkes neden yazılımcı olamaz ?">
-<meta name="keywords" content="Gerçek Yazılımcı, gerçek yazılımcı, Oğuzhan GÜMÜŞ, oğuzhan gümüş, Ankara Yazılım, Reklam, Youtube, Twitter">
+  <meta name="title" content="Android Java'da Yeni Bir Eşik Geçtim Nasıl mı ? ">
+<meta name="description" content="Android konusunda kendimi geliştirmeye çalışan bir geliştiriciyim. Qaroco adında bir startup'da uygulama geliştiriyorum. Henüz junior olduğumu baştan söylemeliyim.Bu yazıyı yeni bir eşik yani zorluk geçmenin verdiği heyecanla yazıyorum.">
+<meta name="keywords" content="VL MEDİA,vl media,vl media gümüş blog,vl media staj,vl media iş,Android Java'da Yeni Bir Eşik Geçtim Nasıl mı ?, Oğuzhan GÜMÜŞ, oğuzhan gümüş, Ankara Yazılım, Reklam, Youtube, Twitter">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="Turkish">
 
 
-  <title>Gerçek Yazılımcı </title>
+  <title>Android Java'da Yeni Bir Eşik Geçtim Nasıl mı ? </title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -89,18 +89,65 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
          
+<h1>Peki bu eşik nedir ? </h1>
 
-          <p>Bunlar zaten yok biliyorsun,  senin gibi zeki karizmatik harika bir insanlar ne yapmazlar bunları tüketmezler. </p>
+          <p> Dediğim gibi ben qaroco adında bir uygulama geliştiriyorum. <br>
+               Bu uygulamayı tanıtmak için kısaca  uber tarzı kargo uygulaması diyebilirim.<br>
+            Harita olarak Mapbox kullanıyorum. <br>
+               @Mapbox 'da Location picker işlemini #fragment yapısında kullanırken, #initDroppedMarker methodu yüzünden uygulama ölüyordu.
+               <br>
+               <img src="https://user-images.githubusercontent.com/40228440/77424342-fdb83b00-6de1-11ea-899f-5957fe23ea6b.png" alt="Cinque Terre" width="1000" height="300">
+               <br>
+               Bende github'da issues oluşturdum. <br>
+               stackoverflow'da soru açtım. <br>
+              <br> Çünkü benim hatayı bulma methodum buydu,logcat'i incelerdim ve internetten araştırırdım daha önce sorulmamış ise ben sorardım.
+              <br> Fakat bu çözümlerin hepsi google ürünleri için geçerli. Siz google map'de bir sorun yaşarsanız çok kişi tarafından kullanıldığı için 
+             <br>  karşınıza çıkan problemi daha önce yaşamış bir geliştirici bulurdunuz.
+             <br>  Faakt eğer google map'e aylık 300 dolar vermek istemiyorsanız işler zorlaşabilir.
+             <br>  Evet mapbox'ın da tutorial'ları var fakat hepsi AppCompatActivity tarafından ectent edilen class'lar üzerinden gidilmiş.
+             <br>  Ben de navigation drawer içinde fragmentler kullandığım için işler karmaşık bir hal alabiliyor.
+             <br>  Peki ben bu karışıklıktan normal yollar ile (github issues ve stackoverflow) çıkamadığımda ne yaptım.
+               
+             <br>  Öncelikle hata veren methoda odaklandım. Yani initDroppedMarker methoduna,
+            <br>   bu method bir classı (Style) parametre alıyordu.Ben de bu class'a ctrl ile üzerine tıklayarak gittim.
+            <br>   Style classının hangi methodlarını kullandığına ve bu methodların nasıl parametreler istediğini inceledim.
+             <br>  Ve gördüm ki Style class!ının addImage methodu parametre olarak iki şey istiyordu.
+               
+               
+             <br>     <img src=" https://user-images.githubusercontent.com/40228440/77425505-e24e2f80-6de3-11ea-9715-442a52812959.png" alt="Cinque Terre" width="1000" height="300">
+               
+               
+            <br>   Biri string diğeride bitmap image.Fakat resmi direk yazamasınız yolunu söylemeniz gerekiyor. 
+           <br>    İşte olay burada başlıyor çünkü image yolunu göstermek için kullanılan  getResources() methodu AppCompatActivity class'ına ait.
+           <br>    Ama ben class'ımı AppCompatActivity ile genişletmedim ki ben fragment ile genişlettim.
+           <br>    Peki burada imdadımıza getActivity yetişiyor ve işi çözüyoruz.
+               
+            <br>   Bunu aslında 2 şey için  anlattım.
+            <br><br>   1 Neden.
+             <br>  Google ürünleri biz geliştiricileri tembelleştiriyor olabilir mi ? 
+            <br>   Evet işler daha kolay ama biz firebase'yi kullanacak kişiler değiliz bizler firebase'yi geliştirecek kişileriz.
+            <br>   O yüzden işin derinine dalmak gerekiyor.
+               
+            <br><br>   2. Neden'de ben VL Media şirketini bir çok nedenden ötürü beğeniyorum ve girmek istiyorum fakat bir kaç denemem başarılı sonuç vermedi.
+             <br>  Bunun nedeni yeteneklerimi gösterememem olabilir. Bu yazıda biraz o amaça hizmet ediyor.
+               
+          
+               
+   
+               
 
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">Sen harika bir insansın seni tanımıyorum ama bunu biliyorum çünkü senden başka bu dünyada kimse yok sen özel birisin. Nekadar özel olduğuna sen karar ver. Öyle güzel şeyler üret ki İnsanlar senin nekadar özel bir insan olduğunu hatırlasınlar.</span>
+              
+             
+               
+             
+             
+             
+             
+             </p>
 
-          <p>İnsanları mutlu et karşında kim olur sa olsun onu nasıl mutlu edebilirim diye düşün.</p>
+         
 
-          <p>Genel de insanlar kendilerini rahatca anlatmayı severler  onları dinle değerli hissettir bırak konuşsun mutlu olsun.</p>
-
+        
           <p>Söylediklerim hoşuna gitti değil mi ? O zaman beni 
             <a href="https://twitter.com/mezbjen">Twitter'dan </a>. ve 
             <a href="https://www.youtube.com/channel/UC6KxxTNdYnJoo-1yoIju8Rw/videos?view_as=subscriber">Youtube'den takip et lütfen</a>.</p>
