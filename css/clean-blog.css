@@ -420,3 +420,10 @@ footer .copyright {
   font-size: 16px;
   padding: 25px 35px;
 }
+.btn-fix {
+padding: 0;
+border: none;
+white-space: normal;
+color: black;
+text-align: left;
+}
