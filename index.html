@@ -430,54 +430,38 @@ Fit Blog Android App</h5>
 }
      
      
-     body {
-  background-color:#333;
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+.dert {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
 }
 
-.output {
-  text-align:center;
-  font-family: 'Source Code Pro', monospace;
-  color:white;
-  h1 {
-    font-size:30px;
-  }
+/* Animation */
+.dert {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
 }
 
-/* Cursor Styling */
+/* text animation */
 
-.cursor::after {
-  content:'';
-  display:inline-block;
-  margin-left:3px;
-  background-color:white;
-  animation-name:blink;
-  animation-duration:0.5s;
-  animation-iteration-count: infinite;
-}
-h1.cursor::after {
-  height:24px;
-  width:13px;
-}
-p.cursor::after {
-  height:13px;
-  width:6px;
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
 }
 
-@keyframes blink {
-  0% {
-    opacity:1;
-  }
-  49% {
-    opacity:1;
-  }
-  50% {
-    opacity:0;
-  }
-  100% {
-    opacity:0;
-  }
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
-   
      
 
     </style>
