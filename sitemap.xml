@@ -1,75 +1,257 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-  <loc>http://www.oguzhangumus.net/index.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/about.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/index.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/post.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/qaroco.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/contact.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/contact.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postsix.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/korsan.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postTwo.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/postandroid.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postThree.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/postthree</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postFour.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/posteight</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postFive.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/about.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.oguzhangumus.net/postteen.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <loc>https://www.oguzhangumus.net/post.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/posttwo</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/postfour</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/postfive</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.oguzhangumus.net/onetwo.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.oguzhangumus.net/oneone.html</loc>
-  <priority>1.0</priority>
-  <changefreq>always</changefreq>
-  <lastmod>2019-07-11</lastmod>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://www.oguzhangumus.net/doktor.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/postseven</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuone.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwo.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuthree.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menufour.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menufive.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menusix.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuseven.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menueight.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menunine.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menueleven.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuthirteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwelve.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menufourteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menufiveteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menusixteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuseventeen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menueighteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menunineteen.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwenty.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentyone.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentytwo.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentythree.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentyfour.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentyfive.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentysix.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentyseven.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentyeight.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menutwentynine.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuthirty.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuthirtyone.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.oguzhangumus.net/menuthirtytwo.html</loc>
+  <lastmod>2020-06-13T18:14:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
